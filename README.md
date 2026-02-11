@@ -44,19 +44,31 @@ git clone https://github.com/Hetull/UserListApp.git
 cd UserListApp
 ```
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
+
+```bash
 npm install
+```
 
 or
 
+```bash
 yarn install
+```
 
-▶️ Run The App
+### ▶️ Run The App
+
 Android
+
+```bash
 npx react-native run-android
+```
 
 iOS (Mac only)
+
+```bash
 cd ios
 pod install
 cd ..
 npx react-native run-ios
+```
